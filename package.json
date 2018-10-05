@@ -1,0 +1,28 @@
+{
+  "name": "papersizes-react",
+  "version": "1.0.0",
+  "description": "React project for papersizes.io",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardfranklin/papersizes-react.git"
+  },
+  "author": "Richard Franklin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardfranklin/papersizes-react/issues"
+  },
+  "homepage": "https://github.com/richardfranklin/papersizes-react#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
